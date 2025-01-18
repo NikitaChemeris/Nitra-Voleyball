@@ -1,18 +1,22 @@
 <script>
 import { RouterLink, RouterView } from 'vue-router';
 import Navbar from './components/Navbar.vue';
+import Footer from './components/Footer.vue';
 
 export default {
   components: {
     Navbar,
-    RouterView
+    Footer
   }
 };
 </script>
 
 <template>
-  <div>
+  <div id="app">
     <Navbar />
     <RouterView />
+    <Footer />
   </div>
 </template>
+
+<style></style>

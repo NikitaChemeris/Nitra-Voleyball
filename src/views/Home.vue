@@ -1,7 +1,12 @@
 <template>
-    <p> HELLO </p>
+    <div class="content">
+        <h1>Welcome to Nitra Volleyball</h1>
+        <p>Your hub for team news, schedules, and more!</p>
+    </div>
 </template>
 
-<script>
-
-</script>
+<style>
+.content {
+    margin-top: 100px;
+}
+</style>
