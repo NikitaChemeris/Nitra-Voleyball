@@ -1,13 +1,3 @@
-<template>
-    <ul class="player-list">
-        <li v-for="player in players" :key="player.id">
-            <img :src="player.image" :alt="player.name" />
-            <h3>{{ player.name }}</h3>
-            <p>{{ player.position }}</p>
-        </li>
-    </ul>
-</template>
-
 <script>
 export default {
     props: {
@@ -18,6 +8,16 @@ export default {
     },
 };
 </script>
+
+<template>
+    <ul class="player-list">
+        <li v-for="player in players" :key="player.id">
+            <img :src="player.image" :alt="player.name" />
+            <h3>{{ player.name }}</h3>
+            <p>{{ player.position }}</p>
+        </li>
+    </ul>
+</template>
 
 <style scoped>
 ul.player-list {

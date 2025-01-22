@@ -1,10 +1,3 @@
-<template>
-    <div class="team-page">
-        <h1>Meet the Team</h1>
-        <PlayerCards :players="players" />
-    </div>
-</template>
-
 <script>
 import PlayerCards from "../components/PlayerCards.vue";
 import playersData from "@/assets/nitra_volleyball_players.json";
@@ -18,6 +11,13 @@ export default {
     },
 };
 </script>
+
+<template>
+    <div class="team-page">
+        <h1>Meet the Team</h1>
+        <PlayerCards :players="players" />
+    </div>
+</template>
 
 <style scoped>
 .team-page {
