@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '@/views/Home.vue'
 import Team from '@/views/Team.vue'
-import Schedule from '@/views/Schedule.vue'
+import News from '@/views/News.vue'
 import Contact from '@/views/Contact.vue'
 
 const router = createRouter({
@@ -18,9 +18,9 @@ const router = createRouter({
       component: Team,
     },
     {
-      path: '/schedule',
-      name: 'schedule',
-      component: Schedule,
+      path: '/news',
+      name: 'news',
+      component: News,
     },
     {
       path: '/contact',
